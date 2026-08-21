@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta do Pastor Marconde Silva</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f1ec;
+            color: #2c2c2c;
+            line-height: 1.7;
+            padding-top: 80px;
+            /* espaço para o cabeçalho fixo */
+        }
+
+        /* ===== CABEÇALHO FIXO ===== */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 70px;
+            background: linear-gradient(135deg, #1a3a5c, #2d5f8a);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            height: 100%;
+            padding: 0 16px;
+        }
+
+        .logo-container img {
+            height: 45px;
+            width: auto;
+            max-width: 180px;
+            object-fit: contain;
+            filter: brightness(0) invert(1);
+            /* Caso a logo seja escura, isso a deixa branca.
+               Se não quiser, remova esta linha. */
+        }
+
+        .header-title {
+            color: #fff;
+            font-size: 0.95rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 60vw;
+        }
+
+        /* ===== CONTEÚDO ===== */
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px 16px 40px;
+        }
+
+        .paper {
+            background: #fff;
+            border-radius: 12px;
+            padding: 30px 22px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+            border: 1px solid #e8e0d8;
+        }
+
+        .paper h1 {
+            font-size: 1.3rem;
+            color: #1a3a5c;
+            text-align: center;
+            margin-bottom: 4px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .paper h2 {
+            font-size: 0.95rem;
+            color: #7a7a7a;
+            text-align: center;
+            font-weight: 400;
+            margin-bottom: 24px;
+            border-bottom: 1px solid #f0ece6;
+            padding-bottom: 16px;
+        }
+
+        .paper p {
+            margin-bottom: 18px;
+            font-size: 0.95rem;
+            text-align: justify;
+        }
+
+        .paper p:first-of-type {
+            font-weight: 500;
+            color: #1a3a5c;
+        }
+
+        .highlight-box {
+            background: #f9f6f2;
+            border-left: 4px solid #1a3a5c;
+            padding: 16px 18px;
+            margin: 22px 0;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+            font-size: 0.92rem;
+            color: #444;
+        }
+
+        .signature {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .signature strong {
+            display: block;
+            font-size: 1.1rem;
+            color: #1a3a5c;
+            margin-top: 4px;
+        }
+
+        .signature .role {
+            font-size: 0.82rem;
+            color: #999;
+            margin-top: 2px;
+            font-style: italic;
+        }
+
+        /* Botão de voltar ao topo (opcional) */
+        .back-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #1a3a5c;
+            color: #fff;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            z-index: 999;
+            transition: transform 0.2s;
+        }
+
+        .back-top:hover {
+            transform: scale(1.1);
+        }
+
+        /* Responsivo extra */
+        @media (max-width: 380px) {
+            .paper {
+                padding: 22px 14px;
+            }
+            .paper p {
+                font-size: 0.88rem;
+            }
+            .header-title {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho fixo com logo -->
+    <header>
+        <div class="logo-container">
+            <!-- Substitua o src abaixo pelo caminho da sua logo -->
+            <img src="logo1.png" alt="Logo da Igreja" />
+            <span class="header-title">Cidade Praia</span>
+        </div>
+    </header>
+
+    <!-- Conteúdo -->
+    <div class="container">
+        <div class="paper">
+            <h1>Carta de Agradecimento</h1>
+            <h2>Pastor Marconde Silva</h2>
+
+            <p>A paz do Senhor, Pastor Edson!</p>
+
+            <p>Quero, antes de tudo, agradecer pela presença do Pastor Márcio ontem em nossa congregação, representando a nossa diretoria. Recebi sua presença com muita gratidão e me sinto verdadeiramente lisonjeado pelo apoio, pelo cuidado e pela consideração dispensados à minha pessoa e à nossa congregação.</p>
+
+            <p>Tivemos uma conversa muito agradável, franca e, acima de tudo, compreensiva. Quero dizer ao senhor que estou perfeita e fielmente alinhado às adequações e ao novo formato que está sendo empreendido em nossa igreja. Tenho plena convicção de que essa nova direção nasce de uma visão que Deus tem colocado em seu coração para este novo tempo que Ele está conduzindo em nossa igreja.</p>
+
+            <p>Como obreiro e cooperador, reconheço, com humildade, que poderia ter feito mais e que, talvez, em alguns momentos, não tenha conseguido corresponder plenamente às expectativas da nossa igreja. Mas posso afirmar, diante de Deus e do senhor, que tudo aquilo que esteve ao meu alcance procurei fazer com amor, zelo, dedicação e sinceridade de coração.</p>
+
+            <div class="highlight-box">
+                "Aqui fui amado por alguns, ferido por muitos e, talvez, até odiado por poucos. Mas, em meio a tudo isso, procurei permanecer de pé e fazer aquilo que estava em minhas mãos. Desembainhei a espada e lutei com todas as minhas forças, procurando honrar a Deus, servir à igreja e cumprir a missão que me foi confiada."
+            </div>
+
+            <p>Por isso, quero também agradecer ao senhor pela confiança e pela oportunidade de ter estado, durante este período, à frente desta congregação. Foi uma experiência que carregarei comigo com gratidão e respeito.</p>
+
+            <p>E, quando chegar o momento de repassar essa responsabilidade, farei isso com o mesmo amor, zelo, tremor e temor com que procurei conduzir até aqui. Entendo que a visão está com o senhor, que a liderança lhe foi confiada por Deus e que este novo tempo também faz parte dos propósitos do Senhor para a nossa igreja.</p>
+
+            <p>Assim, estarei à disposição para colaborar no que for necessário, com o mesmo espírito de serviço. Da mesma forma, tenho plena confiança de que a liderança desta congregação compreenderá e respeitará os desígnios que Deus tem colocado diante do senhor.</p>
+
+            <p>Não saio deste período carregando mágoas, mas gratidão. Não levarei comigo aquilo que poderia ter sido, mas a consciência de que fiz o melhor que pude com as forças que tinha. E, acima de tudo, levo a certeza de que a obra pertence ao Senhor e que nós somos apenas instrumentos em Suas mãos.</p>
+
+            <p>Muito obrigado pela confiança, pelo cuidado e pela oportunidade de servir.</p>
+
+            <p>Que Deus continue abençoando poderosamente a sua vida, sua família e este ministério que Ele colocou em suas mãos.</p>
+
+            <div class="signature">
+                Com gratidão, respeito e consideração,
+                <strong>Pastor Marconde Silva</strong>
+                <span class="role">Obreiro e cooperador</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Botão voltar ao topo -->
+    <a href="#" class="back-top" title="Voltar ao topo">↑</a>
+
+</body>
+</html>
